@@ -5,7 +5,7 @@ v0.1 Beta -- 1/15/2014
 
 Scripts and a basic checklist used to augment the penetration testing and security process of Drupal web applications. These scripts and the drupal-security-checklist.pdf coincide with the 'Attacking Drupal' presentation, which covers many common configuration flaws associated with Drupal web applications.
 
-     Presentation: <link coming soon>
+     Presentation: http://www.slideshare.net/heinzarelli/attacking-drupal
      
 --------------------------------------------------
 
