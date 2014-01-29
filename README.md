@@ -38,6 +38,8 @@ Basic checklist which helps developers and security teams alike avoid common sec
 
 #[presentation-&-movies]
 The full OWASP presentation and movies are located in the /presentation/ directory.
+Alternatively, you can view the presentation on slideshare:
+  http://www.slideshare.net/heinzarelli/attacking-drupal
 
 --------------------------------------------------
 
@@ -52,5 +54,5 @@ The full OWASP presentation and movies are located in the /presentation/ directo
       -clear screen before run
       -minor tweaks...
   1/15/2014 - Public Release
-  
+
 --------------------------------------------------
