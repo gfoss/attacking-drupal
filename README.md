@@ -1,7 +1,7 @@
 #Attacking Drupal
 greg.foss [at] LogRhythm.com
 
-v0.1 Beta -- 1/15/2014
+v0.2 Beta -- 1/28/2014
 
 Scripts and a basic checklist used to augment the penetration testing and security process of Drupal web applications. These scripts and the drupal-security-checklist.pdf coincide with the 'Attacking Drupal' presentation, which covers many common configuration flaws associated with Drupal web applications.
 
@@ -42,5 +42,15 @@ The full OWASP presentation and movies are located in the /presentation/ directo
 --------------------------------------------------
 
 #[changelog]
-     1/15/2014 - Public Release
+	1/28/2014 - Updates
+    Presentation
+      -slides updated to include hardening
+      -checklist updated to include hardening
+      -drupal-account-forcer.mp4 - updated and shortened
+    Scripts
+      -adding User Agent strings
+      -clear screen before run
+      -minor tweaks...
+  1/15/2014 - Public Release
+  
 --------------------------------------------------

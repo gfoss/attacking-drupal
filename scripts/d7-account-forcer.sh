@@ -7,6 +7,7 @@
 # THE DEVELOPER OF THIS SCRIPT IS NOT LIABLE FOR ILLEGAL/QUESTIONABLE ACTIVITIES CONDUCTED WITH THIS TOOL
 # BY RUNNING THIS SCRIPT, YOU AGREE THAT YOU HAVE READ AND UNDERSTAND THESE TERMS
 
+clear
 #display banner and define variables
 echo "  ___                      _   ____             "
 echo " |   \ _ _ _  _ _ __  __ _| | |__  |            "
