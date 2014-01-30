@@ -1,5 +1,5 @@
 #Attacking Drupal
-greg.foss [at] LogRhythm.com
+greg . foss [at] LogRhythm . com
 
 v0.2 Beta -- 1/28/2014
 
@@ -44,6 +44,7 @@ Alternatively, you can view the presentation on slideshare:
 --------------------------------------------------
 
 #[changelog]
+
 	1/28/2014 - Updates
     Presentation
       -slides updated to include hardening
@@ -53,6 +54,7 @@ Alternatively, you can view the presentation on slideshare:
       -adding User Agent strings
       -clear screen before run
       -minor tweaks...
-  1/15/2014 - Public Release
+
+  	1/15/2014 - Public Release
 
 --------------------------------------------------
