@@ -34,6 +34,8 @@ There are two versions, Drupal 6 and Drupal 7 as each has slight differences in 
 #[drupal-security-checklist]
 Basic checklist which helps developers and security teams alike avoid common security pitfalls when developing Drupal web applications.
 
+  Checklist is located within the /presentation/ directory.
+
 --------------------------------------------------
 
 #[presentation-&-movies]
