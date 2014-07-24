@@ -1,5 +1,5 @@
 #Attacking Drupal
-greg . foss [at] LogRhythm . com
+greg . foss [at] owasp . org
 
 v0.2 Beta -- 1/28/2014
 
