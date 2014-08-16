@@ -1,12 +1,13 @@
 #Attacking Drupal
 greg . foss [at] owasp . org
 
-v0.2 Beta -- 1/28/2014
+v0.4 Beta -- 8/16/2014
 
 Scripts and a basic checklist used to augment the penetration testing and security process of Drupal web applications. These scripts and the drupal-security-checklist.pdf coincide with the 'Attacking Drupal' presentation, which covers many common configuration flaws associated with Drupal web applications.
 
-     Presentation: http://www.slideshare.net/heinzarelli/attacking-drupal
-     
+     Slides: http://www.slideshare.net/heinzarelli/attacking-drupal
+     BSidesLV Presentation: https://www.youtube.com/watch?v=-0ZeL_SMNB8
+
 --------------------------------------------------
 
 #[account-forcer]
@@ -49,6 +50,10 @@ Alternatively, you can view the presentation on slideshare:
 	5/21/2014 - Minor Updates
       -BSides Denver presentation added
       -Updated movies
+
+	8/16/2014 - BSidesLV Updates
+    Presentation video link added to Readme
+    Movies condensed into one demo
 
 	1/28/2014 - Updates
     Presentation
