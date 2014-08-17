@@ -40,8 +40,10 @@ Basic checklist which helps developers and security teams alike avoid common sec
 --------------------------------------------------
 
 #[presentation-&-movies]
-The full OWASP presentation and movies are located in the /presentation/ directory.
-Alternatively, you can view the presentation on slideshare:
+The BSidesLV presentation can be viewed here:
+  https://www.youtube.com/watch?v=-0ZeL_SMNB8
+  
+The slides are located in the /presentation/ directory or can be viewed on slideshare:
   http://www.slideshare.net/heinzarelli/attacking-drupal
 
 --------------------------------------------------
