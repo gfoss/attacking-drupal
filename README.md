@@ -47,13 +47,13 @@ Alternatively, you can view the presentation on slideshare:
 --------------------------------------------------
 
 #[changelog]
-	5/21/2014 - Minor Updates
-      -BSides Denver presentation added
-      -Updated movies
-
 	8/16/2014 - BSidesLV Updates
     Presentation video link added to Readme
     Movies condensed into one demo
+    
+	5/21/2014 - Minor Updates
+      -BSides Denver presentation added
+      -Updated movies
 
 	1/28/2014 - Updates
     Presentation
