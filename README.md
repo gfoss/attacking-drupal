@@ -51,11 +51,11 @@ The slides are located in the /presentation/ directory or can be viewed on slide
 #[changelog]
 	1/11/2015 - Security Checklist Update
       -Closed Issue #1
-      
+
   8/16/2014 - BSidesLV Updates
       -Presentation video link added to Readme
       -Movies condensed into one demo
-    
+
 	5/21/2014 - Minor Updates
       -BSides Denver presentation added
       -Updated movies
