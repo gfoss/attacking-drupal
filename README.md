@@ -1,4 +1,4 @@
-#Attacking Drupal
+# Attacking Drupal
 greg . foss [at] owasp . org
 
 v0.5 Beta -- 1/11/2015
@@ -10,7 +10,7 @@ Scripts and a basic checklist used to augment the penetration testing and securi
 
 --------------------------------------------------
 
-#[account-forcer]
+# [account-forcer]
 A Drupal account brute-forceing script.
 
 There are two versions, Drupal 6 and Drupal 7 as each has slight differences in the code. This script will work with any wordlist against a Drupal 6 application, assuming that it does not have additional protections in place such as rate limiting, MFA, SSO, CAPTCHA (implemented properly) etc. Drupal 7 is a bit trickier, and will only work if a small wordlist is used.
@@ -21,7 +21,7 @@ There are two versions, Drupal 6 and Drupal 7 as each has slight differences in 
      
 --------------------------------------------------
 
-#[devel-exploit]
+# [devel-exploit]
 This script will harvest all user e-mails and password hashes from an application running the Drupal Devel module.
 
 There are two versions, Drupal 6 and Drupal 7 as each has slight differences in the code. This script can be used to automate the task of extracting user account information from any site that has left the devel module enabled.
@@ -32,14 +32,14 @@ There are two versions, Drupal 6 and Drupal 7 as each has slight differences in 
      
 --------------------------------------------------
 
-#[drupal-security-checklist]
+# [drupal-security-checklist]
 Basic checklist which helps developers and security teams alike avoid common security pitfalls when developing Drupal web applications.
 
 	Checklist is located within the /presentation/ directory.
 
 --------------------------------------------------
 
-#[presentation-&-movies]
+# [presentation-&-movies]
 The BSidesLV presentation can be viewed here:
   https://www.youtube.com/watch?v=-0ZeL_SMNB8
   
@@ -48,7 +48,7 @@ The slides are located in the /presentation/ directory or can be viewed on slide
 
 --------------------------------------------------
 
-#[changelog]
+# [changelog]
 	
 	1/11/2015 - Security Checklist Update
       -Closed Issue #1
@@ -74,7 +74,7 @@ The slides are located in the /presentation/ directory or can be viewed on slide
 
 --------------------------------------------------
 
-#[License]
+# [License]
 
 Copyright (c) 2014, Greg Foss
 All rights reserved.
